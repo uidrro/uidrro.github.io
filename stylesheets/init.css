@@ -2,11 +2,13 @@
     This stylesheet is to initialize (nearly) all settings so that pages are displayed as intended
 */
 
+/* Begin Positioning */
 * {
     margin: 0;
     border: 0;
     padding: 0;
 }
+/* End Positioning */
 
 /* Begin Font */
 
