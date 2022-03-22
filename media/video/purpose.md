@@ -1,1 +1,1 @@
-This folder is for videos used on the site.
+This directory contains all video files used throughout the site.

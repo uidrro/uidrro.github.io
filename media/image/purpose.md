@@ -1,1 +1,1 @@
-This folder is for images used on the site.
+This directory contains all image files used throughout the site.
