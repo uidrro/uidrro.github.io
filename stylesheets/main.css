@@ -1,4 +1,31 @@
-html, body {
+html {
     background-color: black;
+}
+
+body {
     color: rgb(17, 255, 0);
+}
+
+ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    padding: 1em;
+    color: rgb(17, 255, 0);
+    text-align: center;
+    border-top: 1px solid red;
+    border-bottom: 1px solid blue;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: rgb(17, 255, 0);
+    color: black;
+
 }
