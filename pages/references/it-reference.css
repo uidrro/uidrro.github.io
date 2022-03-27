@@ -1,0 +1,92 @@
+#header-nav > ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    background-color: black;
+    list-style: none;
+}
+
+#header-nav > ul > li > a {
+    text-decoration: none;
+    text-align: center;
+    color: rgb(17,255,0);
+    padding: 0 10px;
+    display: block;
+}
+    #header-nav > ul > li > a:hover {
+        background-color: rgb(17,255,0);
+        color: blue;
+    }
+
+.hardware {
+    color: royalblue;
+}
+
+.peripherals {
+    color: royalblue;
+}
+
+.connectors {
+    color: royalblue;
+}
+
+.nightmares {
+    color: royalblue;
+}
+
+.os {
+    color: royalblue;
+}
+
+.os .windows {
+    background-color: blue;
+    color: white;
+}
+
+.windows.cli{
+    background-color: blue;
+    color: white;
+    border: 1px solid gray;
+}
+
+.os .linux {
+    background-color: black;
+    color: rgb(17,255,0);
+}
+
+.linux.cli {
+    background-color: black;
+    color: rgb(17,255,0);
+    border: 1px solid white;
+}
+
+.os .macos {
+    background-color: white;
+    color: black;
+}
+
+.macos.cli {
+    background-color: white;
+    color: black;
+    border: 1px solid lightgreen;
+}
+
+.networking {
+    color: royalblue;
+}
+
+.security {
+    color: royalblue;
+}
+
+.fixme {
+    color: royalblue;
+}
+
+.virtualization {
+    color: royalblue;
+}
+
+/* #footer-nav > ul {
+    list-style: none;
+} */
