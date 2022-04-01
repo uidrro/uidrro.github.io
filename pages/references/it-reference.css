@@ -1,5 +1,6 @@
 :root {
     background-color: black;
+    color: skyblue;
     /* specify size */
 }
 
@@ -9,21 +10,58 @@ html, body {
     That's super cool */
 }
 
-/* Side Nav */
-    /* Add toggle, push to left side */
-    /* Definitely needs cleanup from tutorial watched */
+header {
+    border: 1px solid white;
+}
 
-.navbar {
+/* Flexbox Layout */
+    /* Use px or em for scaling. Will be a long page. */
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    width: 100%;
+    height: 5%;
+}
+
+body > div {
+    display: flex;
+    flex-wrap: column wrap;
+}
+
+nav {
+    width: 20%;
+}
+
+main {
+    width: 80%;
+}
+
+footer {
+    width: 100%;
+    height: 5%;
+}
+
+/* End Flexbox Layout */
+
+/* Side Nav */
+    /* Needs cleanup from tutorial used */
+    /* Add toggle. Should cover 3-5% of left side. Click should expand sidenav. */
+
+.sidenav {
     background-color: rgba(0, 0, 139, .1);
     width: 250px;
-    position: absolute;
+    position: relative;
     top: 0;
-    bottom: 0;
+    bottom: 5%;
     /* box-shadow: 0px 0px 5px rgba(17, 255, 0, 0.7); */
     border: 1px solid rgba(17, 255, 0, 0.3);
 }
 
-.navbar ul {
+.sidenav ul {
     position: relative;
 
 }
@@ -38,11 +76,11 @@ a {
     border-radius: 0 30px 30px 0;
 }
 
-.navbar ul li a:hover {
+.sidenav ul li a:hover {
     background: rgba(0, 0, 0, .7);
 }
 
-.navbar ul ul {
+.sidenav ul ul {
     position: absolute;
     left: 250px; /* Equals .navbar width */
     width: 200px;
@@ -54,30 +92,34 @@ a {
     border: 1px solid rgba(17, 255, 0, 0.3);
 }
 
-.navbar ul span {
+.sidenav ul span {
     position: absolute;
     right: 20px;
     font-size: 1.5em;
 }
 
-.navbar ul .dropdown {
+.sidenav ul .dropdown {
     position: relative;
 }
 
-.navbar ul .dropdown:hover > ul {
+.sidenav ul .dropdown:hover > ul {
     display: initial;
 }
 
-.navbar ul .dropdown_two ul {
+.sidenav ul .dropdown_two ul {
     position: absolute;
     left: 200px;
 }
 
-.navbar ul .dropdown_two:hover > ul {
+.sidenav ul .dropdown_two:hover > ul {
     display: initial;
 }
 
 /* End Side Nav */
+
+main {
+    border: 1px solid lightskyblue;
+}
 
 .hardware {
     color: royalblue;
@@ -151,6 +193,6 @@ a {
     color: royalblue;
 }
 
-/* #footer-nav > ul {
-    list-style: none;
-} */
+footer {
+    border: 1px solid white;
+}
