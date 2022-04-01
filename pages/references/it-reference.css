@@ -1,25 +1,83 @@
-html {
-    background-color: lightgray;
+:root {
+    background-color: black;
+    /* specify size */
 }
 
-#header-nav > ul {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    background-color: black;
-    list-style: none;
+html, body {
+    height: 100%;
+    /* background: linear-gradient(to top right, green, blue, green, blue);
+    That's super cool */
 }
-    #header-nav > ul > li > a {
-        text-decoration: none;
-        text-align: center;
-        color: rgb(17,255,0);
-        padding: 0 10px;
-        display: block;
-    }
-        #header-nav > ul > li > a:hover {
-            background-color: rgb(17,255,0);
-            color: blue;
-        }
+
+/* Side Nav */
+    /* Add toggle, push to left side */
+    /* Definitely needs cleanup from tutorial watched */
+
+.navbar {
+    background-color: rgba(0, 0, 139, .1);
+    width: 250px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    /* box-shadow: 0px 0px 5px rgba(17, 255, 0, 0.7); */
+    border: 1px solid rgba(17, 255, 0, 0.3);
+}
+
+.navbar ul {
+    position: relative;
+
+}
+
+a {
+    display: flex;
+    align-items: center;
+    color: rgb(17,255,0);
+    padding: 10px 30px;
+    height: 40px;
+    transition: 0.5s ease;
+    border-radius: 0 30px 30px 0;
+}
+
+.navbar ul li a:hover {
+    background: rgba(0, 0, 0, .7);
+}
+
+.navbar ul ul {
+    position: absolute;
+    left: 250px; /* Equals .navbar width */
+    width: 200px;
+    top: 0;
+    display: none;
+    background: darkblue;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(17, 255, 0, 0.3);
+}
+
+.navbar ul span {
+    position: absolute;
+    right: 20px;
+    font-size: 1.5em;
+}
+
+.navbar ul .dropdown {
+    position: relative;
+}
+
+.navbar ul .dropdown:hover > ul {
+    display: initial;
+}
+
+.navbar ul .dropdown_two ul {
+    position: absolute;
+    left: 200px;
+}
+
+.navbar ul .dropdown_two:hover > ul {
+    display: initial;
+}
+
+/* End Side Nav */
 
 .hardware {
     color: royalblue;

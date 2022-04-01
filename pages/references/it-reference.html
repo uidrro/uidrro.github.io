@@ -1,5 +1,5 @@
 <!-- This page will serve as a master reference for IT stuff -->
-<!-- It will also be split up and moved eventually -->
+<!-- It will eventually be split up and moved -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -14,36 +14,97 @@
         <title>IT Reference</title>
     </head>
 
-    <header>
-        <!-- Insert NavBar Here -->
-        <!-- If possible, make as sidebar -->
-        <nav id="header-nav">
+    <body>
+
+        <!-- ToDo
+            Add header.
+            Add lexbox as: header{} body{nav{},sections{}} footer{}.
+        -->
+
+        <nav id="sidenav" class="sidenav navbar">
             <ul> <!-- Can use "(li>a)*i" to make as many new nav links as needed -->
-                <li><a href="#hardware">PC Hardware</a></li>
-                    <!-- CPU, Motherboard, Memory, Storage, Power, GPU, APU-->
-                <li><a href="#peripherals">Peripherals</a></li>
-                    <!-- Mouse, Keyboard, Touchscreen, Controllers -->
-                <li><a href="#connectors">Connectors</a></li>
-                    <!-- USB, Ethernet, DisplayPort, HDMI, DVI, VGA, Optical(?) -->
-                <li><a href="#nightmares">Printers</a></li>
-                    <!-- Inkjet, Laser, Thermal -->
-                <li><a href="#os">Operating Systems</a></li>
-                    <!-- Desktop: Windows, MacOS, Linux, ChromeOS -->
-                    <!-- Mobile: iOS, Anroid -->
-                    <!-- Server: ?? -->
-                <li><a href="#networking">Networking</a></li>
+                <li class="dropdown"><a href="#hardware">PC Hardware<span>&rsaquo;</span></a>
+                    <ul>
+                        <li><a href="#cpu">CPU</a></li>
+                        <li><a href="#motherboard">Motherboard</a></li>
+                        <li><a href="#memory">Memory</a></li>
+                        <li><a href="#storage">Storage</a></li>
+                        <li><a href="#graphics">Graphics</a></li>
+                        <li><a href="#power">Power</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="#peripherals">Peripherals<span>&rsaquo;</span></a>
+                    <ul>
+                        <li class="dropdown_two"><a href="#pointer">Pointers</a>
+                            <ul>
+                                <li><a href="#">Mouse</a></li>
+                                <li><a href="#">Touchscreen</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#keyboard">Keyboard</a></li>
+                        <li><a href="#nightmares">Printers</a></li>
+                        <li><a href="#peripherals">Placeholder</a></li>
+                        <li><a href="#peripherals">Placeholder</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="#connectors">Connectors<span>&rsaquo;</span></a>
+                    <ul>
+                        <li><a href="#usb">USB</a></li>
+                        <li><a href="#ethernet">Ethernet</a></li>
+                        <li><a href="#DisplayPort">DisplayPort</a></li>
+                        <li><a href="#hdmi">HDMI</a></li>
+                        <li><a href="#dvi">DVI</a></li>
+                        <li><a href="#vga">VGA</a></li>
+                        <li><a href="#optical">Optical</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="#nightmares">Printers<span>&rsaquo;</span></a>
+                    <ul>
+                        <li><a href="#inkjet">Inkjet</a></li>
+                        <li><a href="#laser">Laser</a></li>
+                        <li><a href="#thermal">Thermal</a></li>
+                        <li><a href="#impact">Impact</a></li>
+                        <li><a href="#dotmatrix">Dot-Matrix</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="#os">Operating Systems<span>&rsaquo;</span></a>
+                    <ul>
+                        <!-- Desktop -->
+                        <li><a href="#windows">Windows</a></li>
+                        <li><a href="#macos">MacOS</a></li>
+                        <li><a href="#linux">Linux</a></li>
+                        <li><a href="#chromeos">ChromeOS</a></li>
+                        <!-- Mobile -->
+                        <li><a href="#ios">iOS</a></li>
+                        <li><a href="#android">Android</a></li>
+                        <!-- Server -->
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="#networking">Networking<span>&rsaquo;</span></a>
+                    <!-- Setup, TCP/IP, Connection Protocols, OSI Model -->
+                </li>
+                <li class="dropdown"><a href="#security">Security<span>&rsaquo;</span></a>
                     <!-- -->
-                <li><a href="#security">Security</a></li>
-                    <!-- -->
-                <li><a href="#fixme">Troubleshooting</a></li>
+                </li>
+                <li class="dropdown"><a href="#fixme">Troubleshooting<span>&rsaquo;</span></a>
                     <!-- Include links to all other sections -->
-                <li><a href="#virtualization">Virtualization</a></li>
+                </li>
+                <li class="dropdown"><a href="#virtualization">Virtualization</a>
                     <!-- -->
+                </li>
             </ul>
         </nav>
-    </header>
 
-    <body>
+        <!-- Menu icon in SVG. Use for sidenav?
+        <span class="open-slide">
+            <a href="#">
+                <svg width="30" height="30">
+                    <path d="M0,5 30,5" stroke="rgba(17, 255, 0, 1)" stroke-width="5"/>
+                    <path d="M0,14 30,14" stroke="rgba(17, 255, 0, 1)" stroke-width="5"/>
+                    <path d="M0,23 30,23" stroke="rgba(17, 255, 0, 1)" stroke-width="5"/>
+                </svg>
+            </a>
+        </span> -->
 
         <br/><br/>
 
@@ -63,6 +124,7 @@
         </section>
         <section id="peripherals" class="peripherals">
             <h1>Peripherals</h1>
+            <p> Mouse, Keyboard, Touchscreen, Controllers, #nightmares,  </p>
         </section>
         <section id="connectors" class="connectors">
             <h1>Connectors</h1>
@@ -78,6 +140,7 @@
         </section>
         <section id="networking" class="networking">
             <h1>Networking</h1>
+            <p>Wired, WiFi, Bluetooth, ZWave, ZigBee </p>
         </section>
         <section id="security" class="security">
             <h1>Security</h1>
