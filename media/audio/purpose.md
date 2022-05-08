@@ -1,1 +1,1 @@
-This folder is for audio files used on the site.
+This directory contains all audio files used throughout the site.
