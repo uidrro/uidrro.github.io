@@ -1,15 +1,42 @@
+:root {
+    --terminalgreen: #11ff00;
+    --red: #ff0000;
+    --green: #00ff00;
+    --blue: #0000ff;
+}
+
+html, body, header, main, footer {
+    border: 1px dotted white;
+}
+
 html {
     background-color: black;
 }
 
+header {
+    background-color: grey;
+}
+
+nav.headnav {
+    color: var(--terminalgreen);
+}
+
+nav.sidenav {
+    color: var(--terminalgreen);
+}
+
+nav.footnav {
+    color: var(--terminalgreen);
+}
+
 body {
-    color: rgb(17, 255, 0);
+    color: var(--blue);
 }
 
 ul {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     list-style: none;
 }
 
@@ -17,15 +44,42 @@ li > a {
     display: block;
     text-decoration: none;
     padding: 1em;
-    color: rgb(17, 255, 0);
+    color: var(--terminalgreen);
     text-align: center;
-    border-top: 1px solid red;
-    border-bottom: 1px solid blue;
+    border: thick inset var(--terminalgreen);
+    /*
+        border-style: top left bottom right;
+        border-width: top left bottom right;
+        border-color: top left bottom right;
+    */
     font-weight: bold;
 }
 
 a:hover {
-    background-color: rgb(17, 255, 0);
-    color: black;
+    background-color: blue;
+    color: whitesmoke;
 
+}
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+        /* flex-direction: column;
+        flex-wrap: wrap; */
+    justify-content: center;
+}
+
+main > nav {
+    height: 100%;
+    width: 20%;
+}
+
+main > section {
+    height: 100%;
+    width: 80%;
+}
+
+footer {
+    width: 100%;
+    
 }
