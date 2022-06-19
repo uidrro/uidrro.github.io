@@ -1,1 +1,0 @@
-This directory contains all audio files used throughout the site.

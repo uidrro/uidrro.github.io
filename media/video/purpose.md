@@ -1,1 +1,0 @@
-This directory contains all video files used throughout the site.

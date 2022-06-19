@@ -1,36 +1,61 @@
 :root {
-    --terminalgreen: #11ff00;
-    --red: #ff0000;
-    --green: #00ff00;
-    --blue: #0000ff;
+    --bg: #000000;
+    --text: #11ff00;
 }
 
-html, body, header, main, footer {
+@media (prefers-color-scheme: dark) {
+    .dark-scheme { background: var(--bg); color: var(--text) }
+}
+
+@media (prefers-color-scheme: light) {
+    .light-scheme { background: white; color: black; }
+}
+
+/* Media sizes from Microsoft https://docs.microsoft.com/en-us/windows/apps/design/layout/screen-sizes-and-breakpoints-for-responsive-design */
+/* https://mediaqueri.es/about/ has 320px, 768px, 1024px, and 1600px */
+/* @media (max-width: 640px) {
+    
+}
+
+@media (min-width: 641px) and (max-width: 1007px) {
+    
+}
+
+@media (min-width: 1008px) {
+    
+}
+
+@media print {
+    background: white;
+    color: black;
+} */
+
+html, body, header, main, footer, nav, section {
     border: 1px dotted white;
-}
-
-html {
-    background-color: black;
 }
 
 header {
     background-color: grey;
 }
 
-nav.headnav {
-    color: var(--terminalgreen);
+#nav-head {
+    color: var(--text);
 }
 
-nav.sidenav {
-    color: var(--terminalgreen);
+#sidebar {
+    color: var(--text);
+    background-color: darkorchid;
+    height: 100%;
+    width: 20%;
 }
 
-nav.footnav {
-    color: var(--terminalgreen);
+#nav-foot {
+    color: var(--text);
+    background-color: darkblue;
 }
 
 body {
-    color: var(--blue);
+    color: blue;
 }
 
 ul {
@@ -44,9 +69,9 @@ li > a {
     display: block;
     text-decoration: none;
     padding: 1em;
-    color: var(--terminalgreen);
+    color: var(--text);
     text-align: center;
-    border: thick inset var(--terminalgreen);
+    border: 1px inset var(--text);
     /*
         border-style: top left bottom right;
         border-width: top left bottom right;
@@ -56,12 +81,12 @@ li > a {
 }
 
 a:hover {
-    background-color: blue;
-    color: whitesmoke;
+    background-color: orange;
+    color: black;
 
 }
 
-main {
+#main-wrapper {
     display: flex;
     flex-flow: row wrap;
         /* flex-direction: column;
@@ -69,12 +94,7 @@ main {
     justify-content: center;
 }
 
-main > nav {
-    height: 100%;
-    width: 20%;
-}
-
-main > section {
+main {
     height: 100%;
     width: 80%;
 }

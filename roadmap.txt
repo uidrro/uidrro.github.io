@@ -1,0 +1,45 @@
+/
+    pages/
+        .archive/
+        background/
+            certs, edu, jobs, personal, resume
+        blog/
+        guides/
+            /* loosely organized. Use tags for sorting */
+        projects/
+            code/
+            homelab/
+        promos/
+            adpages/
+                1password, bitwarden, yubikey, protonvpn, protonmail, firefox, signal, mullvad, linode, grapheneos, codecademy, khanacademy
+            orgs/
+                eff, mozilla, proton, silentpocket
+        cheatsheets/
+        test/
+            /* Used for playing with web design */
+
+        about.html
+        blog.html
+        guides.html
+        projects.html
+        cheatsheets.html
+
+    stylesheets/
+        init.css
+        main.css
+        print.css
+        writeup.css
+            /* blog, guides, project pages, etc */
+        showcase.css
+            /* certs, promo main */
+
+    assets/
+        audio/
+        images/
+        video/
+        other/
+
+    index.html
+    template.html
+    LICENSE
+    README.md
