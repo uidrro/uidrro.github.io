@@ -1,0 +1,67 @@
+/* START initialization */
+
+:root {
+    --bg: #252525;
+    --text: #11ff00;
+
+    background-color: var(--bg);
+    color: var(--text);
+    width: 100vw;
+    min-height: 100vh;
+}
+
+:root, body, header, footer, section, main, nav, ul, ol, li, a {
+    margin: 0;
+    padding: 0;
+    border: 1px dashed goldenrod;
+    box-sizing: border-box;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* END initialization */
+
+/* START Flexbox */
+
+body, header, footer, section, main, nav, ul, ol, li {
+    /* Flex Parent */
+    display: flex;
+    flex-flow: row wrap;
+        /* flex-direction: row; */
+        /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    align-items: stretch;
+    align-content: flex-start;
+    /* gap: 1em 2em; */
+        /* row-gap: 1em; */
+        /* column-gap: 2em; */
+}
+
+/* END FLEXBOX */
+
+/* START STYLES */
+
+.full-width {
+    width: 100%;
+}
+
+nav {
+    justify-content: flex-start;
+}
+
+a {
+    padding: 1em;
+    text-align: center;
+}
+
+a:hover {
+    background-color: black;
+}
+
+/* END STYLES */
