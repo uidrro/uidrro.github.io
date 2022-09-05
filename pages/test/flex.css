@@ -10,7 +10,7 @@
     min-height: 100vh;
 }
 
-:root, html, body, header, footer, aside, main, nav {
+:root, html, body, header, footer, section, main, nav {
     margin: 0;
     padding: 0;
     border: 1px dashed goldenrod;
@@ -53,7 +53,7 @@ body, header, footer, section, main {
     border: 1px dotted purple;
 }
 
-main {
+#content {
     width: 80%;
     border: 1px dotted dodgerblue;
 }
