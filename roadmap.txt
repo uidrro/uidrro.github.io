@@ -9,7 +9,7 @@
         projects/
             code/
             homelab/
-        promos/
+        *promos/
             adpages/
                 1password, bitwarden, yubikey, protonvpn, protonmail, firefox, signal, mullvad, linode, grapheneos, codecademy, khanacademy
             orgs/
