@@ -10,7 +10,7 @@
     min-height: 100vh;
 }
 
-:root, body, header, footer, section, main, nav, ul, ol, li, a {
+:root, body, header, main, footer, section, div, nav, ul, ol, li, a {
     margin: 0;
     padding: 0;
     border: 1px dashed goldenrod;
@@ -29,7 +29,7 @@ a {
 
 /* START FLEXBOX */
 
-body, header, footer, section, main, nav, ul, ol, li {
+body, header, main, footer, section, div, nav, ul, ol, li {
     /* FLEX PARENT */
     display: flex;
     flex-flow: row wrap;
@@ -43,14 +43,19 @@ body, header, footer, section, main, nav, ul, ol, li {
         /* column-gap: 2em; */
 }
 
-header, footer, section, main, nav, ul, ol, li, a {
+header, main, footer, section, div, nav, ul, ol, li, a {
     /* FLEX CHILD */
     order: 0;
     flex: 1 0 auto;
-        /* flex-grow: 1; */
-        /* flex-shrink: 0; */
+        /* flex-grow: 0; */
+        /* flex-shrink: 1; */
         /* flex-basis: auto; */
     align-self: auto;
+}
+
+li {
+    flex-basis: 25%;
+    justify-content: center;
 }
 
 /* END FLEXBOX */
@@ -84,10 +89,11 @@ a:hover {
     justify-content: center;
 }
 
-html, body {
+body {
     min-height: 100%;
 }
 
-main {
-    height: 70%;
+img {
+    /* object-fit: 50% 50%; */
+    object-fit: contain;
 }
