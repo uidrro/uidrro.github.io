@@ -1,8 +1,8 @@
 /* START INITIALIZATION */
 
 :root {
-    --bg: #252525;
-    --text: #11ff00;
+    --bg: #111111;
+    --text: #2ECC40;
 
     background-color: var(--bg);
     color: var(--text);
@@ -13,7 +13,7 @@
 :root, body, header, main, footer, section, div, nav, ul, ol, li, a {
     margin: 0;
     padding: 0;
-    border: 1px dashed goldenrod;
+    border: 1px dashed #FF851B;
     box-sizing: border-box;
 }
 
