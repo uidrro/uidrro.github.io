@@ -10,8 +10,8 @@
     min-height: 100vh;
 }
 
-:root, html, body, header, footer, section, main, nav {
-    margin: 0 auto;
+:root, html, body, header, footer, section, main, nav, menu {
+    margin: 0;
     padding: 0;
     border: 1px dashed goldenrod;
     box-sizing: border-box;
@@ -27,9 +27,9 @@ a {
 
 /* END initialization */
 
-/* START Flexbox Layout */
+/* START Flexbox positioning */
 
-body, header, footer, section, main, nav {
+body, header, footer, section, main {
     /* Flex Parent */
     display: flex;
     flex-flow: row wrap;
@@ -48,24 +48,15 @@ body, header, footer, section, main, nav {
     width: 100%;
 }
 
-/* html {
-    width: 100%;
-    min-height: 100%;
-} */
-
-body {
-    /* width: 100%; */
-    min-height: 100%;
-    border: 1px dotted yellow;
-}
-
-nav {
+#sidebar {
     width: 20%;
+    border: 1px dotted purple;
 }
 
-main {
+#content {
     width: 80%;
+    border: 1px dotted dodgerblue;
 }
 
-/* END Flexbox Layout */
+/* END Flexbox Positioning */
 
