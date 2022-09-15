@@ -106,7 +106,9 @@ body {
     min-height: 100%;
 }
 
+*/
+
 img {
-    object-fit: 50% 50%;
-    object-fit: contain;
-} */
+    max-width: 100%;
+    display: block;
+}
