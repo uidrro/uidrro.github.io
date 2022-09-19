@@ -1,6 +1,7 @@
 # uidrro.github.io
 GitHub Hosted Site
 
-This site is intended to be a semi-professional portfolio that showcases my web development knowledge and shows off things I've done or participated in.
+Thanks for checking out my personal site.
 
-That's the goal, anyway.
+One day, it'll actually look good and I'll put projects up on it.
+...maybe. :)
