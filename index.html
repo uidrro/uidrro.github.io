@@ -1,6 +1,4 @@
-<!--
-    This is my homepage.
--->
+<!-- Welcome. Enjoy your stay. -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -8,47 +6,42 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <link rel="stylesheet" href="stylesheets/init.css"> -->
-  <link rel="stylesheet" href="stylesheets/temp.css"> <!--main.css-->
-  <title>Homepage</title>
+  <!-- <link rel="stylesheet" href="./stylesheets/init.css"> -->
+  <link rel="stylesheet" href="./stylesheets/main.css">
+  <title>UIDRRO'S SITE</title>
 </head>
 
 <body>
 
-  <header class="full-width">
-    <nav id="header-nav" class="full-width">
-      <ul>
-        <li id="logo"><a href="#">UIDRRO</a></li> <!--index.html-->
-        <li><a href="#">About</a></li> <!--pages/about.html-->
-        <li><a href="#">Contact</a></li> <!--pages/contact.html-->
-        <li><a href="#">Projects</a></li> <!--pages/projects.html-->
-      </ul>
-    </nav>
+  <header>
+    <!-- <p>This is the header. It should stay at the top while scrolling.</p> -->
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Projects</a></li>
+    </ul>
   </header>
 
-  <main class="full-width">
-    <section id="intro" class="full-width">
-      <h2>Hey there! I'm UIDRRO.</h2>
+  <main>
+    <section id="intro">
+      This is the main content. It's at least a full screen tall.
     </section>
-    <section id="content-container" class="full-width">
-      <section class="half-width">
-        <p>I do computer stuff. Take a look at my first rack. It's got my networking equipment, a Linux PC, Windows PC, and a full-blown server!</p>
-        <p>Unifi equipment makes up the backbone of my network, though I do have separate devices that handle the firewall, DNS, and DCHP that aren't visible in the picture, but are on top of the rack.</p>
-        <p>The Linux PC runs Ubuntu. I've used Ubuntu as my daily driver for almost 4 years now and it's so much more fun than Windows. Much less expensive too!</p>
-        <p>The Windows PC is used primarily for games at the moment. Eventually, I'll move the games storage to a network folder, put Windows in a VM, and use the PC for something else.</p>
-        <p>The server currently runs XCP-NG as a Type I hypervisor. It works great as long as the VM's can reach the DHCP server. Not sure what I broke with that, but the communication doesn't always go through. I'll figure it out at some point.</p>
-        <p>Some of the projects I've been working on are wiring up the house for 10Gb with cat6A cable, fixing network issues on the XCP-NG server so that I can finish setting up a lab environment, creating a financial tracker, and getting a degree.</p>
-      </section>
-      <section class="half-width">
-        <img src="assets/images/Rack_Mini_Front_202104.jpg" alt="My first rack." height="500px" width="300px"> 
-      </section>
+
+    <section id="me">
+      <p>This is the me section.</p>
+    </section>
+
+    <section id="link">
+      <p>This is the links section.</p>
+    </section>
+
+    <section id="blog">
+      <p>This is the blog showcase.</p>
     </section>
   </main>
 
-  <footer class="full-width">
-    <p>Footer - I'll add links and contact info at some point.</p>
-
-    <p>This site's hosted on GitHub. Check it <a href="https://github.com/uidrro/uidrro.github.io">out!</a></p>
+  <footer>
+    <p>This is the footer! It should be at the bottom of the page.</p>
   </footer>
 
 </body>
