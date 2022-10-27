@@ -28,6 +28,25 @@ a {
     color: var(--text);
 }
 
+    a:link {
+        color: var(--text);
+    }
+
+    a:visited {
+        color: var(--text);
+    }
+
+    a:focus {
+        color: var(--text);
+    }
+
+    a:hover {
+        color: var(--text);
+    }
+
+    a:active {
+        color: var(--text);
+    }
 /* END INIT */
 
 /* START @media OPTIONS */
@@ -39,13 +58,13 @@ a {
 /* END FLEXBOX DECLARATIONS */
 
 html {
-    border: 1px solid crimson;
+    border: 1px solid yellow;
     /* min-height: 100vh; */
     background-color: limegreen;
 }
 
 body {
-    border: 1px solid yellow;
+    border: 1px solid green;
     min-height: 100vh;
     /* min-width: 100vw; Sets the scrollbar */
     background-color: lime;
@@ -87,7 +106,7 @@ main > section {
 
 footer {
     width: 100%;
-    border: 1px solid green;
+    border: 1px solid blue;
     background-color: #04202C;
     color: var(--text);
 }
