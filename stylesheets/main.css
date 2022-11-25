@@ -25,12 +25,12 @@ ul, ol, li {
 a {
     outline: none;
     text-decoration: none;
-    color: limegreen;
+    color: var(--text)
 }
 
-    /* a:link {
-        color: var(--text);
-    } */
+    a:link {
+        color: limegreen;
+    }
 
     a:visited {
         color: var(--text);
