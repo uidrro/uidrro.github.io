@@ -25,13 +25,18 @@ nav_enabled: true
 heading_anchors: true
 color_scheme: dark
 collections:
-  documentation:
+  docs:
+    permalink: "/:collection/:path/"
+    output: true
+  posts:
     permalink: "/:collection/:path/"
     output: true
 just_the_docs:
   collections:
-    documentation:
+    docs:
       name: Docs
+    posts:
+      name: Posts
 footer_content: "UIDRRO"
 last_edit_timestamp: true
 last_edit_time_format: "%F at %T:%L" #https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
