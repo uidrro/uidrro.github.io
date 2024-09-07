@@ -1,5 +1,5 @@
 ---
-title: General Security Practices
+title: Week 0 - General Security Practices
 layout: home
 ---
 

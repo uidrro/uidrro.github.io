@@ -1,5 +1,5 @@
 ---
-title: Password Strategy
+title: Week 2 - Password Strategy
 layout: home
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Email Security
+title: Week 1 - Email Security
 layout: home
 ---
 
