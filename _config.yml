@@ -1,7 +1,7 @@
 title: UIDRRO's Website
 #email: email@domain.tld
 description: Website used for shenanigans.
-baseurl: "" # the subpath of your site, e.g. /blog
+#baseurl: "" the subpath of your site, e.g. /blog
 url: https://uidrro.dev/
 twitter_username: uidrro
 github_username:  uidrro
