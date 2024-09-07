@@ -1,9 +1,9 @@
 ---
-title: Posts
+title: Phishing
 layout: home
 ---
 
 **********UNDER MAINTENANCE**********
-This page is the posts homepage.
+This page describes phishing.
 
 ----

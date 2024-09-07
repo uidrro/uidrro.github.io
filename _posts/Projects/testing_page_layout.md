@@ -1,5 +1,5 @@
 ---
-title: Verifying page layout is working correctly
+title: Page Layout
 layout: home
 ---
 

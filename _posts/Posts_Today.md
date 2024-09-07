@@ -1,9 +1,9 @@
 ---
-title: Posts
+title: Today's Post
 layout: home
 ---
 
 **********UNDER MAINTENANCE**********
-This page is the posts homepage.
+This page is today's post.
 
 ----
