@@ -1,8 +1,12 @@
 title: UIDRRO's Website
+#email: email@domain.tld
 description: Website used for shenanigans.
-theme: just-the-docs
-
+baseurl: "" # the subpath of your site, e.g. /blog
 url: https://uidrro.dev/
+twitter_username: uidrro
+github_username:  uidrro
+
+theme: just-the-docs
 
 aux_links:
 #  Template Repository: https://github.com/just-the-docs/just-the-docs-template
@@ -24,6 +28,7 @@ search:
 nav_enabled: true
 heading_anchors: true
 color_scheme: dark
+
 collections:
   docs:
     permalink: "/:collection/:path/"
@@ -37,6 +42,7 @@ just_the_docs:
       name: Docs
     posts:
       name: Posts
+
 footer_content: "UIDRRO"
 last_edit_timestamp: true
 last_edit_time_format: "%F at %T:%L" #https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
