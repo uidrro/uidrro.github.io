@@ -3,7 +3,9 @@ title: Homepage
 layout: home
 ---
 
-**********UNDER MAINTENANCE**********
+**ROUGH WORK IN PROGRESS**
+
+Looks like the Docs collection is working, but Posts isn't.
 
 ----
 

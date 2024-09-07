@@ -1,9 +1,9 @@
 ---
-title: Phishing
+title: Password Strategy
 layout: home
 ---
 
 **********UNDER MAINTENANCE**********
-This page describes phishing.
+This page describes password strategy.
 
 ----
