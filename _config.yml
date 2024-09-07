@@ -1,8 +1,28 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: UIDRRO's Website
+description: Website used for shenanigans.
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://uidrro.github.io/
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+#  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+
+logo: "/assets/images/logo.png"
+favicon_ico: "/assets/images/favicon.ico"
+search_enabled: true
+search:
+  heading_leevel: 3
+  previews: 5
+  preview_words_before: 10
+  preview_words_after: 10
+  tokenizer_separator: /[\s/]+/
+  rel_url: false
+  button: true
+  #focus_shortcut_key: 'f'
+nav_enabled: true
+heading_anchors: true
+color_scheme: dark
+#collections:
+#  documentation:
+#    permalink: "/:collection/:path/"
+#    output: true
