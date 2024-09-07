@@ -1,5 +1,5 @@
 ---
-title: UIDRRO's Homepage
+title: Homepage
 layout: home
 ---
 
