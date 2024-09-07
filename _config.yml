@@ -3,14 +3,14 @@ title: UIDRRO's Website
 description: Website used for shenanigans.
 #baseurl: "" the subpath of your site, e.g. /blog
 url: https://uidrro.dev/
-twitter_username: uidrro
-github_username:  uidrro
+#twitter_username: uidrro
+#github_username:  uidrro
 
 theme: just-the-docs
 
 aux_links:
-#  Template Repository: https://github.com/just-the-docs/just-the-docs-template
-  "This website":"https://uidrro.dev/"
+  Template Repository: https://github.com/uidrro/uidrro.github.io
+#  "This website":"https://uidrro.dev/"
 aux_links_new_tab: false
 
 logo: "https://avatars.githubusercontent.com/u/76664712?v=4"
@@ -25,7 +25,10 @@ search:
   rel_url: false
   button: false
   #focus_shortcut_key: 'f'
+
 nav_enabled: true
+nav_fold: true
+
 heading_anchors: true
 color_scheme: dark
 
