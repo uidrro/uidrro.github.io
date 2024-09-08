@@ -12,5 +12,6 @@ Notes:
 * Safe browsing habits
 * Bookmarks are king
 * Vast majority of folks just need office suite, browser, file utilies
+* Don't click ads. Drag and if picture drags, it's an ad. Otherwise its a button on the site.
 
 ----

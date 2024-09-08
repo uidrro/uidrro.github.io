@@ -6,6 +6,10 @@ layout: home
 **********UNDER MAINTENANCE**********
 This page describes software updates.
 
+TL;DR Patch or someone else will make the hole bigger.
+
+Analogy - Mosquitos bite through gaps in ripped jeans
+
 Notes:
 
 * Security updates
