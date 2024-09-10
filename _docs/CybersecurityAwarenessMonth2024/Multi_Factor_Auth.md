@@ -28,14 +28,14 @@ Types of MFA
     * Security questions with true answers. Lie, answer an unrelated question, or use a whimsical phrase. Q:Where were you born? A:I drive a hot air balloon these days.
         * Help Desk verifying these questions are looking for an answer match, not a true and valid response.
 
-These are prone to phishing because the user is provided a short code, often 6 digits, that can be provided to an attacker if the user is caught off guard or is emotionally compromised. Another weakness, specifically to SMS, is threat actors are known to social engineer (vish) employees at Telecom companies, or in some cases bribe them, to gain access to a user's phone number in order to intercept the 6 digit code that can be used to compromise an account.
+These are prone to phishing because the user is provided a short code, often 6 digits, that can be provided to an adversary if the user is caught off guard or is emotionally compromised. Another weakness, specifically to SMS, is threat actors are known to social engineer (vish) employees at Telecom companies, or in some cases bribe them, to gain access to a user's phone number in order to intercept the 6 digit code that can be used to compromise an account.
 
 * Abuse Prone (Disruptive to normal device usage)
     * Approve/Deny push notifications
     * SMS
     * Voice verification
 
-These are abuse prone because threat actors can use them to effectively perform a denial of service (DoS) against a device. Push notifications, if not managed, can trigger mobile device vibrations, chimes, and banners on the screen. Voice verification will start a phone call, which also triggers mobile device vibrations, ringtones, and takes up the entire screen. SMS codes, too, trigger mobile device vibrations, ringtones, and banner notifications. This is a legitimate tactic used by attackers, called MFA fatigue. The idea is to annoy the user with notifications to such an extent that they approve the authentication request or slip up and approve the request instead of denying it.
+These are abuse prone because threat actors can use them to effectively perform a denial of service (DoS) against a device. Push notifications, if not managed, can trigger mobile device vibrations, chimes, and banners on the screen. Voice verification will start a phone call, which also triggers mobile device vibrations, ringtones, and takes up the entire screen. SMS codes, too, trigger mobile device vibrations, ringtones, and banner notifications. This is a legitimate tactic used by adversaries, called MFA fatigue. The idea is to annoy the user with notifications to such an extent that they approve the authentication request or slip up and approve the request instead of denying it. It's less common now, but in some cases where services didn't put proper limits in place, ader
 
 One way to fight back against this type of abuse is to disable noisy notifications from MFA apps, put short code numbers on silent, and (if feasible) mute verification phone numbers and use them only when _you_ are authenticating. "But how do I know if someone is breaking into my account?" Simple: badge notifications. All three, MFA applications, SMS apps, and phone apps will all have that red dot on their icon showing a missed notification.
 
@@ -44,7 +44,7 @@ One way to fight back against this type of abuse is to disable noisy notificatio
     * Number-matching
     * Biometrics
 
-What makes these phishing resistant is the lack of information that can be reasonably provided to an attacker. There are no codes or phrases that go along with either of these. They prompt for verification on the device logging in as well so there's no chance of abusive notifications! These are the best methods of MFA and ought to be used where supported. The largest drawback is the current lack of support for using hardware keys and biometrics for MFA.
+What makes these phishing resistant is the lack of information that can be reasonably provided to an adversary. There are no codes or phrases that go along with either of these. They prompt for verification on the device logging in as well so there's no chance of abusive notifications! These are the best methods of MFA and ought to be used where supported. The largest drawback is the current lack of support for using hardware keys and biometrics for MFA.
 
 ---
 Backup Codes

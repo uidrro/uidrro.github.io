@@ -8,6 +8,11 @@ layout: home
 This page describes password strategy.
 
 ---
+Password Hygiene
+
+
+
+---
 Standard 100% QWERTY keyboard
 + 10 digits
 + 26 characters in the English alphabet
@@ -42,14 +47,14 @@ Description of password cracking attacks
 * Password Spray
     * Few common passwords to many accounts
 
+
 ---
 ### Password Protection
-Password Managers
-
-Eliminates need to remember credentials (password/passphrase)
+Password Managers eliminate need to remember numerous credentials (password/passphrase).
 
 Eggs in basket argument: Can require separate MFA type to open password vault.
 
+Recommended: 1Password, Bitwarden
 
 ---
 
@@ -62,5 +67,5 @@ Notes:
 * Password managers
 
 ----
-* [1] https://www.beyondtrust.com/blog/entry/password-cracking-101-attacks-defenses-explained
+* [1] Password attacks - https://www.beyondtrust.com/blog/entry/password-cracking-101-attacks-defenses-explained
 * [2] Password weaknesses - https://techcommunity.microsoft.com/t5/microsoft-entra-blog/your-pa-word-doesn-t-matter/ba-p/731984
