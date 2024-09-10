@@ -5,8 +5,11 @@ layout: home
 
 **********UNDER MAINTENANCE**********
 
-This page describes recovering from compromise.
+This page describes recovering from compromise. Focus is on person rather than employee.
 
+
+
+---
 Notes:
 
 * Account takeovers need password reset and device sessions audited. Enable phishing-resistant MFA.

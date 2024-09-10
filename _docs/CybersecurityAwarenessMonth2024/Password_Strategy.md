@@ -15,30 +15,41 @@ Standard 100% QWERTY keyboard
 + 32 special characters
 + 94 when using all of them
 
+---
+### Password Cracking
 Number of combinations in scenarios
 
-10\*10\*10\*10\*10\*10\*10\*10 = 100,000,000 combinations
+10\*10\*10\*10\*10\*10\*10\*10 = 100,000,000 combinations (CISA recommends 16 characters)
 
 94\*94\*94\*94\*94\*94\*94\*94 = 6,095,689,385,000,000 combinations
 
-450K\*450K\*450K\*450K = 41,006,250,000,000,000,000,000 combinations
+450K\*450K\*450K\*450K = 41,006,250,000,000,000,000,000 combinations (CISA recommends 5-7 words)
 
-Event more than that with word delimeter and leetspeak rules applied
+Even more combinations than that with word delimeter and leetspeak rules applied
 
-Screenshots of password crack attempt timelines from uidbot or uidworkhorse
+TO-ADD:Screenshots of password crack attempt timelines from uidbot or uidworkhorse
 
----
-Description of password attacks
+Description of password cracking attacks
 * Brute force
 * Dictionary (700,000+ words in english)
     * ~450K on github .txt list, fewer if filtered between 3-6 character words
+* Wordlists
 
 ---
+### Password Attack
+* Credential Stuffing
+    * Use of known compromised passwords and username combinations
+* Password Spray
+    * Few common passwords to many accounts
+
+---
+### Password Protection
 Password Managers
 
 Eliminates need to remember credentials (password/passphrase)
 
-Can require separate MFA type to open
+Eggs in basket argument: Can require separate MFA type to open password vault.
+
 
 ---
 
@@ -51,3 +62,5 @@ Notes:
 * Password managers
 
 ----
+* [1] https://www.beyondtrust.com/blog/entry/password-cracking-101-attacks-defenses-explained
+* [2] Password weaknesses - https://techcommunity.microsoft.com/t5/microsoft-entra-blog/your-pa-word-doesn-t-matter/ba-p/731984

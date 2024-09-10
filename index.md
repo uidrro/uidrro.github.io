@@ -7,7 +7,7 @@ layout: home
 
 As of this edit, I'm working solely on getting docs up for Cybersecurity Awareness Month.
 
-Once users stop clicking on things, I'll take it down.
+Once users stop clicking on things, I'll take it down. Ha.
 
 ----
 

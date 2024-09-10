@@ -7,6 +7,9 @@ layout: home
 
 This page describes general security practices.
 
+
+
+---
 Notes:
 
 * Safe browsing habits
