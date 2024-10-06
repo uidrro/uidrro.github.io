@@ -9,7 +9,7 @@ has_toc: true
 Cybersecurity Awareness Month page.
 
 ---
-[Week 0 - General Security Practices] (.)
+[Week 0 - General Security Practices](/_docs/CybersecurityAwarenessMonth2024/General_Security_Practices.md)
 
 Week 1 - Email Security
 
