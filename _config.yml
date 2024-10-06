@@ -9,8 +9,8 @@ github_username:  uidrro
 theme: just-the-docs
 
 aux_links:
-  Template Repository: https://github.com/uidrro/uidrro.github.io
-#  "This website":"https://uidrro.dev/"
+  # Template Repository: https://github.com/uidrro/uidrro.github.io
+  This website: https://uidrro.dev/
 aux_links_new_tab: false
 
 logo: "https://avatars.githubusercontent.com/u/76664712?v=4"
@@ -32,6 +32,7 @@ nav_fold: true
 heading_anchors: true
 color_scheme: dark
 
+# collections_dir: 
 collections:
   docs:
     permalink: "/:collection/:path/"
