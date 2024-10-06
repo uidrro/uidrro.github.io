@@ -9,10 +9,15 @@ has_toc: true
 Cybersecurity Awareness Month page.
 
 ---
-[Week 0 - General Security Practices] (https://uidrro.dev/docs/CybersecurityAwarenessMonth2024/General_Security_Practices/)
+[Week 0 - General Security Practices] (.)
+
 Week 1 - Email Security
+
 Week 2 - Password Strategy
+
 Week 3 - Multi-Factor Authentication
+
 Week 4 - Software Updates
+
 Week 5 - Disaster Recovery
 ---
