@@ -1,13 +1,11 @@
 ---
-title: Week 5 - Disaster Recovery Scenario
-parent: Cybser_Security_Awareness_Month
-nav_order: 2
+title: Cybersecurity Awareness Month
 layout: home
 ---
 
 **********UNDER MAINTENANCE**********
 
-This page describes recovering from compromise. Focus is on person rather than employee.
+Cybersecurity Awareness Month page.
 
 
 
