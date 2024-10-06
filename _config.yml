@@ -28,7 +28,7 @@ search:
   #focus_shortcut_key: 'f'
 
 nav_enabled: true
-nav_fold: false
+nav_fold: true
 
 heading_anchors: true
 color_scheme: dark
