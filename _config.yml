@@ -37,7 +37,7 @@ collections:
     permalink: "/:collection/:path/"
     output: true
   posts:
-    permalink: "/:collection/:path/"
+    permalink: "~/_posts/"
     output: true
 just_the_docs:
   collections:
