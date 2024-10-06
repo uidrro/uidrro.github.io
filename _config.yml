@@ -5,12 +5,13 @@ description: Website used for shenanigans.
 url: https://uidrro.dev/
 twitter_username: uidrro
 github_username:  uidrro
+#linkedin_username: uidrro
 
 theme: just-the-docs
 
 aux_links:
   # Template Repository: https://github.com/uidrro/uidrro.github.io
-  This website: https://uidrro.dev/
+  site_main: https://uidrro.dev/
 aux_links_new_tab: false
 
 logo: "https://avatars.githubusercontent.com/u/76664712?v=4"
@@ -27,7 +28,7 @@ search:
   #focus_shortcut_key: 'f'
 
 nav_enabled: true
-nav_fold: true
+nav_fold: false
 
 heading_anchors: true
 color_scheme: dark
@@ -37,15 +38,15 @@ collections:
   docs:
     permalink: "/:collection/:path/"
     output: true
-  posts:
-    permalink: "/:collection/:path/"
-    output: true
+#  posts:
+#    permalink: "/:collection/:path/"
+#    output: true
 just_the_docs:
   collections:
     docs:
       name: Docs
-    posts:
-      name: Posts
+#    posts:
+#      name: Posts
 
 footer_content: "UIDRRO"
 last_edit_timestamp: true
