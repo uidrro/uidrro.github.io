@@ -39,7 +39,7 @@ collections:
     permalink: "/:collection/:path/"
     output: true
   posts:
-    permalink: "/_posts"
+    permalink: "/:collection/:name"
     output: true
 just_the_docs:
   collections:
@@ -47,6 +47,7 @@ just_the_docs:
       name: Docs
     posts:
       name: Posts
+collections_dir: pages
 
 footer_content: "UIDRRO"
 last_edit_timestamp: true
