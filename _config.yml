@@ -38,15 +38,15 @@ collections:
   docs:
     permalink: "/:collection/:path/"
     output: true
-#  posts:
-#    permalink: "/:collection/:path/"
-#    output: true
+  posts:
+    permalink: "/_posts"
+    output: true
 just_the_docs:
   collections:
     docs:
       name: Docs
-#    posts:
-#      name: Posts
+    posts:
+      name: Posts
 
 footer_content: "UIDRRO"
 last_edit_timestamp: true
