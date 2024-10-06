@@ -33,13 +33,12 @@ nav_fold: true
 heading_anchors: true
 color_scheme: dark
 
-# collections_dir: 
 collections:
   docs:
     permalink: "/:collection/:path/"
     output: true
   posts:
-    permalink: "/:collection/:name"
+    permalink: "/:collection/:path/"
     output: true
 just_the_docs:
   collections:
@@ -47,7 +46,7 @@ just_the_docs:
       name: Docs
     posts:
       name: Posts
-collections_dir: pages
+#collections_dir: pages
 
 footer_content: "UIDRRO"
 last_edit_timestamp: true
