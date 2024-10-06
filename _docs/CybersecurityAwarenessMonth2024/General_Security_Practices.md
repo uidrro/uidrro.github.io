@@ -1,5 +1,7 @@
 ---
 title: Week 0 - General Security Practices
+parent: Cybser_Security_Awareness_Month
+nav_order: 2
 layout: home
 ---
 

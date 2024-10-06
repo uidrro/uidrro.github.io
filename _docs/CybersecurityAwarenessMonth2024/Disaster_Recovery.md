@@ -1,7 +1,7 @@
 ---
 title: Week 5 - Disaster Recovery Scenario
-#parent: Cybser_Security_Awareness_Month
-#nav_order: 2
+parent: Cybser_Security_Awareness_Month
+nav_order: 2
 layout: home
 ---
 
