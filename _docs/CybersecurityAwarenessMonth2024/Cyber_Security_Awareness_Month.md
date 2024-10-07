@@ -9,6 +9,7 @@ has_toc: true
 Cybersecurity Awareness Month page.
 
 ---
+
 [Week 0 - General Security Practices](https://uidrro.dev/docs/CybersecurityAwarenessMonth2024/General_Security_Practices)
 
 [Week 1 - Email Security](https://uidrro.dev/docs/CybersecurityAwarenessMonth2024/Email_Security)
